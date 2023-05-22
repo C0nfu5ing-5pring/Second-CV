@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier';
+    src: local('Courier Regular'), local('Courier-Regular'),
+        url('CourierStd.woff2') format('woff2'),
+        url('CourierStd.woff') format('woff'),
+        url('CourierStd.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background-3.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+label {
+    color: blue;
+    font-size: 30px;
+}
+
+h1 {
+    color: red;
+}
+
+a.navbar-items {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+a.hover:hover {
+    color: green;
+}
+
+main {
+    margin-top: 280px;
+}

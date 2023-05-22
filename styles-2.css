@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier';
+    src: local('Courier Regular'), local('Courier-Regular'),
+        url('CourierStd.woff2') format('woff2'),
+        url('CourierStd.woff') format('woff'),
+        url('CourierStd.ttf') format('truetype');
+    font-weight: bolder;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background-2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    color: green;
+}
+
+h1 {
+    color: blue;
+}
+
+.blink {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left: 650px;
+    margin-top: 40px;
+}
+
+span.blink {
+    animation: blink 2s linear infinite;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-top: 0;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.red {
+    color: red;
+}
+
+.error {
+    margin-top: 70px;
+}
+
+a.navbar-items {
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+a.hover:hover {
+    color: green;
+}
+
+p {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (min-height: 400px) {
+    main {
+    margin-top: 250px;
+}
+}
+
+@media (min-width: 400px) {
+    p {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+}
