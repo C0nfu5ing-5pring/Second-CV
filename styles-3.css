@@ -37,7 +37,7 @@ a.navbar-items {
     margin-right: 30px;
     margin-left: 30px;
     font-size: 20px;
-}
+}   
 
 a.hover:hover {
     color: green;
@@ -45,4 +45,18 @@ a.hover:hover {
 
 main {
     margin-top: 280px;
+}
+
+s.red {
+    font-weight: 400;
+    color: red;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.btn:hover {
+    background-color: green;
+    border: 2px green solid;
 }
