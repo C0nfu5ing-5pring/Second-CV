@@ -26,45 +26,12 @@ body {
 
 h1 {
     color: blue;
-}
-
-.blink {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-left: 650px;
-    margin-top: 40px;
-}
-
-span.blink {
-    animation: blink 2s linear infinite;
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    padding-top: 0;
-    padding-left: 0;
-    font-size: 20px;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    margin-top: 150px;
 }
 
 .red {
     color: red;
-}
-
-.error {
-    margin-top: 70px;
+    font-weight: 200;
 }
 
 a.navbar-items {
@@ -80,18 +47,4 @@ a.hover:hover {
 p {
     margin-right: auto;
     margin-left: auto;
-}
-
-@media screen and (min-height: 400px) {
-    main {
-    margin-top: 250px;
-}
-}
-
-@media (min-width: 400px) {
-    p {
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
 }
